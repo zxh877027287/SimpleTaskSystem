@@ -94,6 +94,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Persons\Person.cs" />
     <Compile Include="SimpleTaskSystemConsts.cs" />
     <Compile Include="SimpleTaskSystemCoreModule.cs" />
     <Compile Include="Authorization\SimpleTaskSystemAuthorizationProvider.cs" />
@@ -110,6 +111,8 @@
     <Compile Include="Authorization\Roles\Role.cs" />
     <Compile Include="Authorization\Roles\RoleManager.cs" />
     <Compile Include="Authorization\Roles\RoleStore.cs" />
+    <Compile Include="Tasks\Task.cs" />
+    <Compile Include="Tasks\TaskState.cs" />
     <Compile Include="Users\User.cs" />
     <Compile Include="Users\UserManager.cs" />
     <Compile Include="Users\UserStore.cs" />
