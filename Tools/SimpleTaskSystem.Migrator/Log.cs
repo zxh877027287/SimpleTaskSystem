@@ -5,6 +5,9 @@ using Castle.Core.Logging;
 
 namespace SimpleTaskSystem.Migrator
 {
+    /// <summary>
+    /// »’÷æ¿‡
+    /// </summary>
     public class Log : ITransientDependency
     {
         public ILogger Logger { get; set; }
